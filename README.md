@@ -266,11 +266,11 @@ View my notebook with detailed steps here: [challenge_4](challenge_4.ipynb).
 
 | Component              | Description |
 |------------------------|-------------|
-| ** 30-Week SMA**     | Trend filter — go long when price is above the 30-week SMA. |
-| **🔄 Market Stages**   | Use price structure to identify market stages (1–4) and trade only during Stage 2 (breakout uptrend). |
-| **📈 Relative Strength** | Compare each stock to SPY — only trade if outperforming. |
-| **🔊 Volume Confirmation** | Breakouts must happen on higher-than-average volume to avoid false signals. |
-| **📌 52-Week High Filter** | Additional confirmation: price must break out above its previous 52-week high. |
+| 30-Week SMA     | Trend filter — go long when price is above the 30-week SMA. |
+|  Market Stages   | Use price structure to identify market stages (1–4) and trade only during Stage 2 (breakout uptrend). |
+|  Relative Strength | Compare each stock to SPY — only trade if outperforming. |
+|  Volume Confirmation | Breakouts must happen on higher-than-average volume to avoid false signals. |
+| 52-Week High Filter | Additional confirmation: price must break out above its previous 52-week high. |
 
 ---
 
