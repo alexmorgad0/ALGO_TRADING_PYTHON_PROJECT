@@ -73,7 +73,7 @@ View my notebook with detailed steps here: [challenge_1](challenge_1.ipynb).
 
 After normalizing the prices, I calculated each stock's overall performance and plotted the top 5 performers.
 
-![Top 5 Performing Stocks](top_5_performing_stocks.png)
+![Top 5 Performing Stocks](images/top_5_performing_stocks.png)
 
 
 ---
@@ -82,7 +82,7 @@ Next, I calculated the **mean return** and **standard deviation** (volatility) o
 
 ###  Risk vs. Reward (Annualized Mean vs. Volatility)
 
-![Risk Return](risk_return.png)
+![Risk Return](images/risk_return.png)
 
 ---
 
@@ -90,7 +90,7 @@ To factor in both return and risk, I computed the **Sharpe Ratio** for each stoc
 
 ###  Top 10 Stocks by Sharpe Ratio
 
-![Top 10 Stocks with best Sharpe Ratio](sharpe_ratio_top10.png)
+![Top 10 Stocks with best Sharpe Ratio](images/sharpe_ratio_top10.png)
 
 ---
 
@@ -98,7 +98,7 @@ Finally, I compared the **covariance** and **correlation** matrices of the top s
 
 ###  Covariance and Correlation Matrices
 
-![Covariance and Correlation](covariance_correlation.png)
+![Covariance and Correlation](images/covariance_correlation.png)
 
 ---
 
@@ -161,11 +161,11 @@ for ticker in tickers:
     plt.show()
 ```
 
-![appl](AAPL_moving_average.png)
-![hd](HD_moving_average.png)
-![lmt](LMT_moving_average.png)
-![nee](NEE_moving_average.png)
-![v](v_moving_average.png)
+![appl](images/AAPL_moving_average.png)
+![hd](images/HD_moving_average.png)
+![lmt](images/LMT_moving_average.png)
+![nee](images/NEE_moving_average.pngg)
+![v](images/v_moving_average.png)
 ---
 
 ###  Key Insights
@@ -291,7 +291,7 @@ View my notebook with detailed steps here: [challenge_4](challenge_4.ipynb).
 ###  Single-Stock Strategy Backtest
 
 We first tested the strategy on a single ticker (`MSFT`) and compared it to Buy & Hold:
-![msft](MSFT_spy.png)
+![msft](images/MSFT_spy.png)
 
 | Metric                      | Strategy       | Buy & Hold    |
 |-----------------------------|----------------|---------------|
@@ -308,7 +308,7 @@ We first tested the strategy on a single ticker (`MSFT`) and compared it to Buy 
 ###  Portfolio Backtest (20 Stocks)
 
 Then we scaled the strategy to a **20-stock portfolio**. It only entered trades with strong breakouts, confirmed by volume and relative strength, while managing position sizing.
-![msft](portfolio_spy.png)
+![msft](images/portfolio_spy.png)
 
 | Metric                      | Strategy Portfolio |
 |-----------------------------|--------------------|
